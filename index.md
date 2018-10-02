@@ -1,4 +1,4 @@
-MacroTouchKey
+MacroKeyTouchSensor
 ===============
 
 Week 5 Proof of purchase
