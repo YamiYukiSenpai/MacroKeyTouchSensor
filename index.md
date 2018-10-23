@@ -1,6 +1,10 @@
 MacroKeyTouchSensor
 ===============
 
+Week 8 Basic Breadboard assembly
+---------------
+![MPR121 with breadboard](index_src/IMG_20181023_122640.jpg =780x1040)
+
 Week 5 Proof of purchase
 -------------
 ### Items delivered before this week
