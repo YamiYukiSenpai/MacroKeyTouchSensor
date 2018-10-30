@@ -1,6 +1,18 @@
 MacroKeyTouchSensor
 ===============
 
+Week 9 Fritzing and PCB
+--------------
+
+### Activities vs Schedule
+I am currently slightly behind on the project due to the sensor not being correct on Fritzing's database
+
+### Problem
+The main problem is that Fritzing doesn't have the correect sensor in their database MPR121 does exist but it's missing 2 pins.  The one in their GitHub page is also outdated.
+
+![PCB](index_src/MacroKeyTouchSensor2_pcb.jpg)
+
+
 Week 8 Basic Breadboard assembly
 ---------------
 ### Activities vs the Schedule
