@@ -1,0 +1,44 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=MacroKeyTouchSensor2
+*Date=22:12:47
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;36.7371;-7.57884;-90;Top;TXT2
+2;;;69.1444;-42.6884;0;Bottom;Via4
+3;;;26.5153;-7.38834;-90;Top;TXT2
+4;;;20.8074;-5.49011;-90;Top;TXT2
+5;;THT;51.3644;-19.8284;90;Bottom;J2
+6;;;13.2644;-29.9884;0;Bottom;Via3
+7;;;8.18445;-37.6084;0;Bottom;Via1
+8;;;34.8544;-28.7184;90;Bottom;MPR121
+9;;;23.6449;-7.34233;-90;Top;TXT2
+10;;;48.9026;-6.75305;-90;Top;TXT2
+11;;;41.5987;-7.65052;-90;Top;TXT2
+12;;;52.1866;-6.29614;-90;Top;TXT2
+13;;;33.793;-41.9923;-90;Top;TXT2
+14;;THT;43.7444;-37.6084;90;Bottom;J1
+15;;;44.481;-42.3026;-90;Top;TXT2
+16;;;43.9626;-7.62315;-90;Top;TXT2
+17;;;42.3063;-26.6973;0;Bottom;Raspberry Pi 1
+18;;;31.1187;-42.6412;-90;Top;TXT2
+19;;;46.4148;-7.25174;-90;Top;TXT2
+20;;;34.2745;-7.64488;-90;Top;TXT2
+21;;;42.0319;-42.8663;-90;Top;TXT2
+22;;;29.188;-7.127;-90;Top;TXT2
+23;;;36.3784;-43.211;-90;Top;TXT2
+24;;;39.3079;-43.0367;-90;Top;TXT2
+25;;;39.3418;-7.71628;-90;Top;TXT2
+26;;THT;36.1244;-12.2084;-90;Bottom;J3
+27;;;10.7244;-32.5284;0;Bottom;Via2
+28;;;31.971;-7.25626;-90;Top;TXT2
+29;;;28.6532;-42.6035;-90;Top;TXT2
