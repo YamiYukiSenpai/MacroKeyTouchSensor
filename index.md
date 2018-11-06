@@ -1,6 +1,22 @@
 MacroKeyTouchSensor
 ===============
 
+Week 10 Soldering Milestone
+-----------------
+
+### Actvities vs Schedule
+I am currently behind schedule and cannot complete the soldering milestone today.  I did more research on code for it, [especially in C](https://github.com/sparkfun/MPR121_Capacitive_Touch_Breakout/blob/master/Firmware/MPR121Q/C%20code/main.c).
+
+### Problem
+The PCB's header hole are wider than it should've been.  I decided to delete the sensor and just manually create the headers for it.  The PCB is expected to be ready by tomorrow, November 7.
+
+![PCB readjusted](index_src/MacroKeyTouchSensor2_pcb_adjust.jpg)
+
+### Financial status
+No other purchases necessary for this week.
+
+###
+
 Week 9 Fritzing and PCB
 --------------
 
