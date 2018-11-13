@@ -1,6 +1,13 @@
 MacroKeyTouchSensor
 ===============
 
+Week 11 Testing the sensor
+------------------------
+### Actvities vs Schedule
+I am currently on track with the project.  I had the project tested with a python code [I found on the internet](https://www.mbtechworks.com/projects/mpr121-capacitive-touch-for-raspberry-pi-project.html), which works.  The goal now is to make a case that will work with the PCB.
+
+![](index_src/MPR121_test_res.png)
+
 Week 10 Soldering Milestone
 -----------------
 
