@@ -1,6 +1,15 @@
 MacroKeyTouchSensor
 ===============
 
+Week 12 Case design
+------
+### Activities vs Schedule
+I am currently behind on the project.  I still need the case to be made.  I did finish the schematics today on CorelDRAW and sent it to the prototype lab.
+![](index_src/case.png)
+
+### Problems
+I had a smaller PCB made.  The headers got stuck on the Pi, and I had to resolder it becuase it removed some of the pins from the headers that are attached to the Pi.
+
 Week 11 Testing the sensor
 ------------------------
 ### Actvities vs Schedule
