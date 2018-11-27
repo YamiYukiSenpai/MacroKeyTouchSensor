@@ -1,6 +1,16 @@
 MacroKeyTouchSensor
 ===============
 
+Week 13 Modified Case Design & Presentation prep
+------------
+### New case design
+![new case](index_src/MacroKeyTouchSensor_case.jpg)
+The case that I designed last week didn't fit properly because the slots are misaligned.  Even breaking the pieces didn't help.  Over the weekend, I had a stroke of inspiration when I saw my calculator which led to the case's current design.
+![new case](index_src/IMG_20181127_023128.jpg)
+Yes, I'm aware this is very late, but it took me 4 tries to get it right.  And unfortunately, the ethernet and USB ports aren't aligned properly.  I had to elevate the Raspberry Pi 3 because the power supply would not get in the hole.  However, I think, as of right now, the device will function fine without that part of the case.
+
+![no back](index_src/IMG_20181127_032611.jpg)
+
 Week 12 Case design
 ------
 ### Activities vs Schedule
