@@ -11,6 +11,9 @@ Yes, I'm aware this is very late, but it took me 4 tries to get it right.  And u
 
 ![no back](index_src/IMG_20181127_032611.jpg)
 
+## Presentation preparation
+I started creating the [presention](MacroKeyTouchSensor_presentation.odp) that's going to be presented on December 4, 2018.
+
 Week 12 Case design
 ------
 ### Activities vs Schedule
