@@ -8,7 +8,7 @@
 * [Assembly](#assembly)
 * [Power Up](#powerup)
 
-##<a name="parts">Parts</a>
+## <a name="parts">Parts</a>
 * Raspberry Pi + microSD card
 * Copper tape
 * A platform
@@ -24,7 +24,7 @@ The hardware portion of the project can be done in about a week, if you follow t
 
 ![Gantt](Documentation/Gantt.png)
 
-##<a name="breadboard_connect"></a> Connecting the MPR121 breakout sensor to the Raspberry Pi with the breadboard
+## <a name="breadboard_connect"></a> Connecting the MPR121 breakout sensor to the Raspberry Pi with the breadboard
 
 See [this part of the guide](#breakout_solder) for soldering the breakout board before testing.
 
@@ -44,7 +44,7 @@ Connecting to the breadboard is crucial because we don't want our hard work to g
     ![enable I2C](index_src/enable_i2c.png)
 3. Test out if the sensor works with `sudo i2c-detect -y 1` on the Pi's terminal.
 
-##<a name="pcb_solder"></a> PCB & Soldering
+## <a name="pcb_solder"></a> PCB & Soldering
 
 Soldering the MPR121 breakout requires 2 separate headers, 1 for each side.
 
@@ -68,14 +68,14 @@ This is optional because a normal wire can be plugged in, but a breadboard wire 
 
 *Hint: Best to go for less pins connected to the Pi itself because it can get really hard to take out if you're not careful.*
 
-##<a name="assembly></a> Assembly
+## <a name="assembly"></a> Assembly
 A basic case with 12 pre-made holes for the sensor's 12 points are in the Schematics directory under the file name `MacroKeyTouchSensor_case.cdr`.  Make sure that the you have CorelDraw to make the case, but it can be converted to a standard `.svg` file.
 
 1. Insert the stripped end of the wire to the holes on top of the case.  Cover it up with copper tape for wider touch target.
 2. Once all 12 pins are secured on the case, connect the other end each of their respective pins.
 3. Attach each side of the case to each other.
 
-##<a name="powerup"></a> Power up
+## <a name="powerup"></a> Power up
 * Power up the Pi, and run `sudo i2cdetect -y 1`
 <img src="index_src/Screenshot_20181023_123447.png" width="600">
 
