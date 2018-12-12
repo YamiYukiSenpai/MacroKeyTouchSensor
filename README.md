@@ -50,7 +50,7 @@ Connecting to the breadboard is crucial because we don't want our hard work to g
 Soldering the MPR121 breakout requires 2 separate headers, 1 for each side.
 
 ### Printing the PCB
-The gerber files required for the printing of the PCB are in `Schematics/MacroKeyTouchSensor_gerber`.  Modify the files if need be.
+The gerber files required for the printing of the PCB are in `Schematics/MacroKeyTouchSensor_gerber`.  Modify the Fritzing file in the Schematics directory, and export to gerber if modfifications are needed.
 
 ### <a name="breakout_solder">Soldering the pins to the breakout board</a>
 Make sure that the side you're soldering is the short side.  In addition, make sure that no pins interfere with others.  This is one of the harder ones as there are a lot of them and they're tightly packed together.
@@ -64,7 +64,7 @@ The rest of the headers gets soldered at the top side of the PCB.
 
 <img src="index_src/IMG_20181209_031411.jpg" width="600"> <img src="index_src/IMG_20181209_031419.jpg" width="600">
 
-### Optional: Solder a wire and a breadboard wire
+### Optional: Solder a wire and a breadboard wire together
 Cut a normal wire and a breadboard wire in half.  Make sure that the overall length is approximately 13cm.  Solder the 2 wires together. Afterwards, strip the other end for conection to the case.  Make 12 of these.
 
 This is optional because a normal wire can be plugged in, but a breadboard wire is more secure.
