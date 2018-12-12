@@ -8,7 +8,7 @@
 * [Assembly](#assembly)
 * [Power Up](#powerup)
 
-##<a name="parts"></a> Parts
+##<a name="parts">Parts</a>
 * Raspberry Pi + microSD card
 * Copper tape
 * A platform
