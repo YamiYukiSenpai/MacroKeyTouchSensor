@@ -7,6 +7,7 @@
 * [PCB & Soldering](#pcb_solder)
 * [Assembly](#assembly)
 * [Power Up](#powerup)
+* [Unit Testing](#unit_testng)
 
 ## <a name="parts">Parts</a>
 * Raspberry Pi + microSD card
@@ -19,7 +20,7 @@
 
 Note: expect to pay roughly $150 in parts
 
-##<a name="time"></a> Time Commitment
+## <a name="time">Time Commitment</a>
 The hardware portion of the project can be done in about a week, if you follow the instructions directly & spent at least 2 hours per day on this project.  Maybe 3 weeks to 2 months if you make modificatons.  The Gantt chart below shows how much time I allocated assuming I work once to twice a week
 
 ![Gantt](Documentation/Gantt.png)
@@ -44,14 +45,14 @@ Connecting to the breadboard is crucial because we don't want our hard work to g
     ![enable I2C](index_src/enable_i2c.png)
 3. Test out if the sensor works with `sudo i2c-detect -y 1` on the Pi's terminal.
 
-## <a name="pcb_solder"></a> PCB & Soldering
+## <a name="pcb_solder">PCB & Soldering</a>
 
 Soldering the MPR121 breakout requires 2 separate headers, 1 for each side.
 
 ### Printing the PCB
 The gerber files required for the printing of the PCB are in `Schematics/MacroKeyTouchSensor_gerber`.  Modify the files if need be.
 
-### <a name="breakout_solder"></a>Soldering the pins to the breakout board
+### <a name="breakout_solder">Soldering the pins to the breakout board</a>
 Make sure that the side you're soldering is the short side.  In addition, make sure that no pins interfere with others.  This is one of the harder ones as there are a lot of them and they're tightly packed together.
 
 ### Soldering to the PCB
@@ -68,18 +69,18 @@ This is optional because a normal wire can be plugged in, but a breadboard wire 
 
 *Hint: Best to go for less pins connected to the Pi itself because it can get really hard to take out if you're not careful.*
 
-## <a name="assembly"></a> Assembly
+## <a name="assembly">Assembly</a>
 A basic case with 12 pre-made holes for the sensor's 12 points are in the Schematics directory under the file name `MacroKeyTouchSensor_case.cdr`.  Make sure that the you have CorelDraw to make the case, but it can be converted to a standard `.svg` file.
 
 1. Insert the stripped end of the wire to the holes on top of the case.  Cover it up with copper tape for wider touch target.
 2. Once all 12 pins are secured on the case, connect the other end each of their respective pins.
 3. Attach each side of the case to each other.
 
-## <a name="powerup"></a> Power up
+## <a name="powerup">Power up</a>
 * Power up the Pi, and run `sudo i2cdetect -y 1`
 <img src="index_src/Screenshot_20181023_123447.png" width="600">
 
-## Unit Testing
+## <a name="unit_testing">Unit Testing</a>
 * The repo also comes with a Python 2 test code under the file name `cap-touch.py`.  Place the file on your the root of the home directory of your Pi (not in Documents, Downloads, etc.), and run the command `python cap-touch.py`.  Touch each of the nodes on your case to make sure it responds.
 
 
